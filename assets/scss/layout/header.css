@@ -1,21 +1,24 @@
 /* header */
-
-// navbar start
-
 .main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 40px;
 }
 
 .logo {
   margin-top: 40px;
-  ul {
-    display: flex;
-    li {
-      list-style: none;
-      padding: 20px;
-    }
-  }
+}
+
+.logo ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo ul li {
+  list-style: none;
+  padding: 20px;
 }
 
 .humburger {
@@ -34,40 +37,50 @@
   width: 100%;
   margin-right: 40px;
   margin-top: 30px;
-  ul {
-    display: flex;
-    float: right;
-    li {
-      list-style: none;
-      padding: 33px;
-
-      a {
-        text-decoration: none;
-        color: #232226;
-        font-family: Basier Circle;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 15.6px;
-      }
-
-      span {
-        float: right;
-        position: relative;
-        font-size: 9px;
-      }
-    }
-  }
 }
-// navbar end
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+}
+
+.navbar ul li {
+  list-style: none;
+  padding: 33px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #232226;
+  font-family: Basier Circle;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.6px;
+}
+
+.navbar ul li span {
+  float: right;
+  position: relative;
+  font-size: 9px;
+}
+
 .header-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 212px;
 }
+
 .header-body-img img {
   width: 100%;
 }
+
 .header-body-img {
   max-width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -90,6 +103,7 @@
   font-size: 52px;
   line-height: 102%;
 }
+
 .header-body-text p {
   font-family: Basier Circle;
   font-style: normal;
@@ -117,6 +131,7 @@
   height: 40px;
   border-radius: 50%;
 }
+
 .play-icon svg {
   margin: 15px;
   width: 12px;
