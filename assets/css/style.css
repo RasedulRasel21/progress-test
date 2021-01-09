@@ -17,7 +17,7 @@ ul li {
     display: flex; }
     .logo ul li {
       list-style: none;
-      padding: 20px; }
+      padding: 20px 0; }
 
 .humburger {
   border-radius: 50%;
@@ -25,6 +25,8 @@ ul li {
   height: 56px;
   width: 56px;
   margin-top: 10px; }
+  .humburger svg {
+    margin-left: 20px; }
 
 .logo-icon svg {
   height: 40px; }
@@ -38,22 +40,27 @@ ul li {
     float: right; }
     .navbar ul li {
       list-style: none;
-      padding: 33px; }
+      padding: 15px;
+      font-family: Basier-Circle;
+      font-style: normal;
+      font-weight: 500; }
       .navbar ul li a {
         text-decoration: none;
         color: #232226;
-        font-family: Basier Circle;
-        font-style: normal;
-        font-weight: 500;
         font-size: 15.6px; }
       .navbar ul li span {
+        font-weight: bold;
         float: right;
         position: relative;
         font-size: 9px; }
 
+.cart-amount {
+  margin-left: 35px; }
+
 .header-body {
   display: flex;
-  margin-left: 212px; }
+  margin-left: 212px;
+  margin-top: 20px; }
 
 .header-body-img img {
   width: 100%; }
@@ -67,50 +74,54 @@ ul li {
   border-radius: 50%;
   background: #d90a2c;
   mix-blend-mode: multiply;
-  left: calc(50% - 760px / 2 + 248px);
+  left: 708px;
   padding: 8%;
   color: #fff;
-  top: 25%;
-  margin-left: 35px; }
+  top: 208px;
+  width: 760px;
+  height: 760px; }
 
 .header-body-text h2 {
-  font-family: Playfair Display;
+  font-family: Playfair_Display;
   font-style: normal;
   font-weight: 900;
   font-size: 52px;
-  line-height: 102%; }
+  line-height: 102%;
+  margin-top: 10px; }
 
 .header-body-text p {
-  font-family: Basier Circle;
+  font-family: Basier-Circle;
   font-style: normal;
   font-weight: 500;
   font-size: 19px;
   line-height: 28px;
   width: 361px;
-  margin-bottom: 20px; }
+  margin-bottom: 30px;
+  margin-top: 10px; }
 
 .header-body-text a {
   text-decoration: none;
   background-color: #000;
   color: #fff;
   padding: 10px;
-  font-family: Space Grotesk;
+  padding: 20px 45px;
+  font-family: SpaceGrotesk;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px; }
+  font-size: 16px;
+  border-radius: 4px; }
 
 .play-icon {
   background-color: #000;
-  width: 40px;
-  height: 40px;
+  width: 62px;
+  height: 62px;
   border-radius: 50%; }
 
 .play-icon svg {
-  margin: 15px;
-  width: 12px;
-  height: 12px; }
+  margin: 20px;
+  width: 24px;
+  height: 24px; }
 
-/* reset */
 .service-section {
   position: absolute;
   width: 100%;
@@ -124,7 +135,7 @@ ul li {
   background-color: #1a191d; }
 
 .services-left p {
-  font-family: Basier Circle;
+  font-family: Basier-Circle;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -134,7 +145,7 @@ ul li {
   color: #828084; }
 
 .services-left h1 {
-  font-family: Playfair Display;
+  font-family: Playfair_Display;
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
@@ -143,7 +154,7 @@ ul li {
   color: #ffffff; }
 
 .services-right p {
-  font-family: Basier Circle;
+  font-family: Basier-Circle;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -158,15 +169,16 @@ ul li {
   .services-right-content div {
     padding: 40px 0; }
     .services-right-content div h3 {
-      font-family: Space Grotesk;
+      font-family: SpaceGrotesk;
       font-size: 20px;
       line-height: 28px;
       display: flex;
       align-items: center;
       letter-spacing: -0.01em;
-      color: #ffffff; }
+      color: #ffffff;
+      margin-top: 15px; }
     .services-right-content div p {
-      font-family: Basier Circle;
+      font-family: Basier-Circle;
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
@@ -174,9 +186,23 @@ ul li {
       display: flex;
       align-items: center;
       letter-spacing: -0.01em;
-      color: #828084; }
+      color: #828084;
+      margin-top: 10px; }
 
 .content-left {
   margin-left: 40px; }
+
+@font-face {
+  font-family: SpaceGrotesk;
+  src: url(./../fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff);
+  font-weight: 500; }
+@font-face {
+  font-family: Basier-Circle;
+  src: url(./../fonts/basier-cufonfonts-webfont/BasierCircle-Regular.woff);
+  font-weight: 500; }
+@font-face {
+  font-family: Playfair_Display;
+  src: url(./../fonts/Playfair_Display/static/PlayfairDisplay-Black.ttf);
+  font-weight: 500; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,3 @@
-/* reset */
-
 // services-layout
 .service-section {
   position: absolute;
@@ -14,7 +12,7 @@
   background-color: #1a191d;
 }
 .services-left p {
-  font-family: Basier Circle;
+  font-family: Basier-Circle;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -24,7 +22,7 @@
   color: #828084;
 }
 .services-left h1 {
-  font-family: Playfair Display;
+  font-family: Playfair_Display;
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
@@ -33,7 +31,7 @@
   color: #ffffff;
 }
 .services-right p {
-  font-family: Basier Circle;
+  font-family: Basier-Circle;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -50,16 +48,17 @@
     padding: 40px 0;
 
     h3 {
-      font-family: Space Grotesk;
+      font-family: SpaceGrotesk;
       font-size: 20px;
       line-height: 28px;
       display: flex;
       align-items: center;
       letter-spacing: -0.01em;
       color: #ffffff;
+      margin-top: 15px;
     }
     p {
-      font-family: Basier Circle;
+      font-family: Basier-Circle;
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
@@ -68,6 +67,7 @@
       align-items: center;
       letter-spacing: -0.01em;
       color: #828084;
+      margin-top: 10px;
     }
   }
 }
