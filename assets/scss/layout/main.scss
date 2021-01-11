@@ -1,6 +1,5 @@
 // services-layout
 .service-section {
-  position: absolute;
   width: 100%;
   height: 654px;
   background-color: #1a191d;
@@ -8,8 +7,9 @@
 .services {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 90px 212px;
+  margin: 0 212px;
   background-color: #1a191d;
+  padding-top: 90px;
 }
 .services-left p {
   font-family: Basier-Circle;
@@ -73,4 +73,227 @@
 }
 .content-left {
   margin-left: 40px;
+}
+
+// parallax contact css
+
+.parallax-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 600px;
+
+  p {
+    font-family: Basier-Circle;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #f9f9f9;
+    opacity: 0.75;
+  }
+  h1 {
+    font-family: Playfair_Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 102%;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+}
+.parallax-contact-left img {
+  max-width: 840px;
+  position: absolute;
+}
+.parallax-contact-left-text {
+  padding: 155px 128px 155px 212px;
+  position: relative;
+}
+.parallax-contact-right img {
+  max-width: 840px;
+  position: absolute;
+}
+.parallax-contact-right-text {
+  padding: 155px 212px 155px 128px;
+  position: relative;
+}
+.view-btn {
+  max-width: 175px;
+  height: 50px;
+  background: #17161a;
+  border-radius: 4px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  margin-top: 40px;
+
+  a {
+    padding: 22px;
+    text-decoration: none;
+    font-family: Basier Circle;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+
+    svg {
+      margin: 0px 0px -4px 10px;
+    }
+  }
+}
+
+// progress section
+
+.progress {
+  display: grid;
+  grid-template-columns: 1fr 50%;
+  height: 392px;
+
+  .progress-left {
+    padding: 90px 128px 80px 212px;
+
+    p {
+      font-family: Basier-Circle;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+    }
+    h1 {
+      font-family: Playfair_Display;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 54px;
+      line-height: 102%;
+      letter-spacing: -0.02em;
+      color: #17161a;
+    }
+    h5 {
+      font-family: SpaceGrotesk;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16.8px;
+      line-height: 22px;
+      color: #17161a;
+      margin-top: 42px;
+    }
+  }
+  .progress-right {
+    padding: 102px 184px 0px 236px;
+
+    p {
+      font-family: Basier-Circle;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: -0.01em;
+      color: #232226;
+    }
+    h5 {
+      font-family: Basier-Circle;
+      font-style: normal;
+      font-weight: 600;
+      margin-left: 30px;
+      line-height: 22px;
+      display: flex;
+      align-items: center;
+      color: #17161a;
+    }
+  }
+}
+
+.progress-right-icon {
+  display: flex;
+  svg {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    margin-top: 4px;
+  }
+}
+// progress-img
+
+.progress-img {
+  display: grid;
+  grid-template-columns: 64% 36%;
+  height: 500px;
+  .progress-img-left {
+    max-width: 928px;
+  }
+  .progress-img-right {
+    max-width: 392px;
+  }
+}
+
+//progress-status
+
+.progress-status {
+  display: grid;
+  grid-template-columns: 1fr 50%;
+  max-width: 928px;
+  height: 398px;
+  h5 {
+    font-family: SpaceGrotesk;
+    font-size: 16.8px;
+    line-height: 22px;
+    color: #17161a;
+    margin-top: 7px;
+  }
+  p {
+    font-family: Basier-Circle;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #232226;
+    margin-top: 40px;
+  }
+  .progress-status-left {
+    padding: 80px 20px 0 212px;
+  }
+  .progress-status-right {
+    padding: 80px 0 0 70px;
+  }
+}
+.project-num {
+  display: flex;
+  svg {
+    width: 24px;
+    height: 32px;
+    margin-top: 9px;
+  }
+  h3 {
+    font-size: 40px;
+    margin-left: 10px;
+  }
+}
+
+//customers
+.customers {
+  height: 380px;
+  background-color: #f9f9f9;
+  .customers-top {
+    display: flex;
+    padding: 105px 268px 105px 112px;
+    img {
+      max-width: 120px;
+      margin-left: 100px;
+    }
+  }
+  .customers-bottom {
+    display: flex;
+    padding: 0 268px 105px 112px;
+    img {
+      max-width: 120px;
+      margin-left: 100px;
+    }
+  }
 }
