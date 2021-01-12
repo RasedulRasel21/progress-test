@@ -7,6 +7,17 @@
 ul li {
   list-style: none; }
 
+h1 {
+  font-family: Playfair_Display;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 102%;
+  letter-spacing: -0.02em; }
+
+p {
+  font-family: Basier-Circle;
+  letter-spacing: -0.01em; }
+
 @font-face {
   font-family: SpaceGrotesk;
   src: url(./../../fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff);
@@ -31,6 +42,9 @@ ul li {
     .logo ul li {
       list-style: none;
       padding: 20px 0; }
+      .logo ul li img {
+        height: 44px;
+        margin-left: 20px; }
 
 .humburger {
   border-radius: 50%;
@@ -53,19 +67,22 @@ ul li {
     float: right; }
     .navbar ul li {
       list-style: none;
-      padding: 15px;
+      padding: 20px;
       font-family: Basier-Circle;
       font-style: normal;
-      font-weight: 500; }
+      font-weight: 600; }
       .navbar ul li a {
         text-decoration: none;
         color: #232226;
         font-size: 15.6px; }
       .navbar ul li span {
-        font-weight: bold;
+        font-weight: normal;
         float: right;
         position: relative;
         font-size: 9px; }
+
+.showcases {
+  color: red !important; }
 
 .cart-amount {
   margin-left: 35px; }
@@ -86,11 +103,11 @@ ul li {
   color: #fff;
   height: 18px;
   width: 18px;
-  padding: 4px 0px 0px 7px;
-  font-size: 10px;
+  padding: 2px 0px 0px 6px;
+  font-size: 10px !important;
   font-family: Basier-Circle;
   font-style: normal;
-  font-weight: 600; }
+  font-weight: 600 !important; }
 
 .header-body {
   display: flex;
@@ -104,7 +121,7 @@ ul li {
   max-width: 50%;
   display: flex; }
 
-.header-body-text {
+.header-body-circle {
   position: absolute;
   border-radius: 50%;
   background: #d90a2c;
@@ -112,50 +129,52 @@ ul li {
   left: 708px;
   padding: 8%;
   color: #fff;
-  top: 215px;
+  top: 220px;
   width: 760px;
   height: 760px; }
 
-.header-body-text h2 {
-  font-family: Playfair_Display;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 52px;
-  line-height: 102%;
-  margin-top: 10px; }
-
-.header-body-text p {
-  font-family: Basier-Circle;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 19px;
-  line-height: 28px;
-  width: 361px;
-  margin-bottom: 30px;
-  margin-top: 10px; }
-
-.header-body-text a {
-  text-decoration: none;
-  background-color: #000;
+.header-body-text {
   color: #fff;
-  padding: 10px;
-  padding: 20px 45px;
-  font-family: SpaceGrotesk;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  border-radius: 4px; }
-
-.play-icon {
-  background-color: #000;
-  width: 62px;
-  height: 62px;
-  border-radius: 50%; }
-
-.play-icon svg {
-  margin: 20px;
-  width: 24px;
-  height: 24px; }
+  top: 177px;
+  right: 145px;
+  position: relative; }
+  .header-body-text h2 {
+    font-family: Playfair_Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    margin-top: 15px;
+    line-height: 102%;
+    letter-spacing: -0.02em;
+    width: 432px; }
+  .header-body-text p {
+    font-family: Basier-Circle;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    width: 361px;
+    margin-bottom: 57px;
+    margin-top: 26px; }
+  .header-body-text a {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 33px;
+    font-family: SpaceGrotesk;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 4px; }
+  .header-body-text .play-icon {
+    background-color: #000;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%; }
+  .header-body-text .play-icon img {
+    margin: 25px 0 0 29px;
+    width: 10px;
+    height: 14px; }
 
 .service-section {
   width: 100%;
@@ -170,31 +189,22 @@ ul li {
   padding-top: 90px; }
 
 .services-left p {
-  font-family: Basier-Circle;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #828084; }
 
 .services-left h1 {
-  font-family: Playfair_Display;
-  font-style: normal;
-  font-weight: 900;
   font-size: 54px;
-  line-height: 102%;
-  letter-spacing: -0.02em;
   color: #ffffff; }
 
 .services-right p {
-  font-family: Basier-Circle;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 28px;
-  letter-spacing: -0.01em;
   color: #f9f9f9;
   max-width: 608px; }
 
@@ -213,14 +223,12 @@ ul li {
       color: #ffffff;
       margin-top: 15px; }
     .services-right-content div p {
-      font-family: Basier-Circle;
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
       line-height: 26px;
       display: flex;
       align-items: center;
-      letter-spacing: -0.01em;
       color: #828084;
       margin-top: 10px; }
 
@@ -233,22 +241,15 @@ ul li {
   width: 100%;
   height: 600px; }
   .parallax-contact p {
-    font-family: Basier-Circle;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #f9f9f9;
     opacity: 0.75; }
   .parallax-contact h1 {
-    font-family: Playfair_Display;
-    font-style: normal;
-    font-weight: 900;
     font-size: 54px;
-    line-height: 102%;
-    letter-spacing: -0.02em;
     color: #ffffff; }
 
 .parallax-contact-left img {
@@ -285,8 +286,8 @@ ul li {
     font-size: 16px;
     line-height: 22px;
     color: #ffffff; }
-    .view-btn a svg {
-      margin: 0px 0px -4px 10px; }
+    .view-btn a img {
+      margin: 4px 0px -4px 10px; }
 
 .progress {
   display: grid;
@@ -295,20 +296,13 @@ ul li {
   .progress .progress-left {
     padding: 90px 128px 80px 212px; }
     .progress .progress-left p {
-      font-family: Basier-Circle;
       font-style: normal;
       font-weight: 600;
       font-size: 14px;
       line-height: 24px;
-      letter-spacing: -0.01em;
       text-transform: uppercase; }
     .progress .progress-left h1 {
-      font-family: Playfair_Display;
-      font-style: normal;
-      font-weight: 900;
       font-size: 54px;
-      line-height: 102%;
-      letter-spacing: -0.02em;
       color: #17161a; }
     .progress .progress-left h5 {
       font-family: SpaceGrotesk;
@@ -321,12 +315,10 @@ ul li {
   .progress .progress-right {
     padding: 102px 184px 0px 236px; }
     .progress .progress-right p {
-      font-family: Basier-Circle;
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
       line-height: 26px;
-      letter-spacing: -0.01em;
       color: #232226; }
     .progress .progress-right h5 {
       font-family: Basier-Circle;
@@ -338,9 +330,36 @@ ul li {
       align-items: center;
       color: #17161a; }
 
+.progress-bar-icon {
+  display: flex;
+  margin-top: 10px; }
+  .progress-bar-icon .rect-red {
+    width: 421px;
+    height: 6px; }
+  .progress-bar-icon .rect-visible {
+    width: 79px; }
+
+.rect-icon {
+  display: grid;
+  float: right;
+  margin-top: -40px;
+  margin-right: 79px; }
+  .rect-icon .rect {
+    width: 36px;
+    height: 22px; }
+  .rect-icon .rect2 {
+    margin-left: 23px;
+    margin-top: -2px; }
+
+.progress-right-icon-minus {
+  display: flex; }
+  .progress-right-icon-minus img {
+    position: absolute;
+    margin-top: 9px; }
+
 .progress-right-icon {
   display: flex; }
-  .progress-right-icon svg {
+  .progress-right-icon img {
     position: absolute;
     width: 12px;
     height: 12px;
@@ -367,12 +386,10 @@ ul li {
     color: #17161a;
     margin-top: 7px; }
   .progress-status p {
-    font-family: Basier-Circle;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 28px;
-    letter-spacing: -0.01em;
     color: #232226;
     margin-top: 40px; }
   .progress-status .progress-status-left {
@@ -382,13 +399,16 @@ ul li {
 
 .project-num {
   display: flex; }
-  .project-num svg {
+  .project-num img {
     width: 24px;
-    height: 32px;
-    margin-top: 9px; }
+    height: 32px; }
   .project-num h3 {
     font-size: 40px;
-    margin-left: 10px; }
+    margin-left: 10px;
+    font-family: SpaceGrotesk;
+    line-height: 108%;
+    align-items: center;
+    color: #17161a; }
 
 .customers {
   height: 380px;
@@ -405,6 +425,305 @@ ul li {
     .customers .customers-bottom img {
       max-width: 120px;
       margin-left: 100px; }
+
+.mutual-goal {
+  display: grid;
+  grid-template-columns: 968px 712px;
+  height: 796px; }
+  .mutual-goal .mutual-goal-left {
+    max-width: 968px; }
+    .mutual-goal .mutual-goal-left .goal-top {
+      background-color: #f9f9f9;
+      height: 90px; }
+    .mutual-goal .mutual-goal-left .goal-bottom {
+      background-color: #f9f9f9;
+      height: 100px;
+      margin-top: 5px; }
+    .mutual-goal .mutual-goal-left .mutual-goal-left-insight {
+      padding: 80px 148px 62px 212px; }
+    .mutual-goal .mutual-goal-left p {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: #232226; }
+    .mutual-goal .mutual-goal-left h1 {
+      font-size: 40px;
+      color: #17161a;
+      margin-top: 10px; }
+    .mutual-goal .mutual-goal-left .founder-img {
+      height: 60px;
+      width: 60px;
+      margin-top: 30px;
+      border-radius: 50%; }
+    .mutual-goal .mutual-goal-left .customer-support {
+      font-family: Basier-Circle;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 32px;
+      letter-spacing: -0.01em;
+      color: #232226;
+      margin-top: 20px;
+      max-width: 608px; }
+      .mutual-goal .mutual-goal-left .customer-support .founder-name {
+        font-family: SpaceGrotesk;
+        font-size: 16.8px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        color: #17161a;
+        margin-bottom: -25px;
+        margin-top: 25px;
+        text-transform: capitalize; }
+      .mutual-goal .mutual-goal-left .customer-support .position {
+        font-family: Basier-Circle;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.01em;
+        color: #232226;
+        text-transform: capitalize; }
+
+.slider-icon {
+  display: flex;
+  margin-top: 40px; }
+  .slider-icon span {
+    font-family: Basier-Circle;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #17161a; }
+    .slider-icon span img {
+      padding: 0 14px; }
+
+.arrow .arrow-left {
+  margin-left: 374px; }
+.arrow .arrow-right {
+  margin-left: 38px;
+  margin-top: 5px; }
+
+.recent-news {
+  height: 567px;
+  background: #f9f9f9;
+  padding: 0 212px 90px 212px; }
+  .recent-news .recent-news-top p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #232226; }
+  .recent-news .recent-news-top h1 {
+    font-size: 40px;
+    color: #17161a; }
+  .recent-news .recent-news-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 42px;
+    grid-gap: 40px; }
+    .recent-news .recent-news-bottom .recent-news-bottom-card {
+      background-color: #ffffff;
+      width: 392px;
+      height: 360px; }
+      .recent-news .recent-news-bottom .recent-news-bottom-card .recent-news-bottom-card-in {
+        padding: 40px 40px 38px 40px; }
+        .recent-news .recent-news-bottom .recent-news-bottom-card .recent-news-bottom-card-in .writter {
+          display: flex; }
+          .recent-news .recent-news-bottom .recent-news-bottom-card .recent-news-bottom-card-in .writter .writter-img img {
+            width: 46px;
+            height: 46px;
+            border-radius: 50%; }
+          .recent-news .recent-news-bottom .recent-news-bottom-card .recent-news-bottom-card-in .writter .writter-name {
+            margin-left: 15px; }
+            .recent-news .recent-news-bottom .recent-news-bottom-card .recent-news-bottom-card-in .writter .writter-name p {
+              font-style: normal;
+              font-weight: normal;
+              font-size: 15px;
+              line-height: 18px;
+              display: flex;
+              align-items: center;
+              color: #232226; }
+              .recent-news .recent-news-bottom .recent-news-bottom-card .recent-news-bottom-card-in .writter .writter-name p b {
+                margin-left: 4px; }
+              .recent-news .recent-news-bottom .recent-news-bottom-card .recent-news-bottom-card-in .writter .writter-name p span {
+                font-size: 14px; }
+        .recent-news .recent-news-bottom .recent-news-bottom-card .recent-news-bottom-card-in .news p {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 24px;
+          display: flex;
+          align-items: center;
+          color: #232226;
+          margin-top: 40px; }
+        .recent-news .recent-news-bottom .recent-news-bottom-card .recent-news-bottom-card-in .news h4 {
+          font-family: SpaceGrotesk;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 26px;
+          line-height: 32px;
+          display: flex;
+          align-items: center;
+          color: #17161a;
+          margin-top: 10px; }
+        .recent-news .recent-news-bottom .recent-news-bottom-card .recent-news-bottom-card-in .news span {
+          color: red;
+          margin-right: 3px; }
+      .recent-news .recent-news-bottom .recent-news-bottom-card .read-btn {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        margin-top: 37px; }
+        .recent-news .recent-news-bottom .recent-news-bottom-card .read-btn a {
+          padding: 22px 22px 22px 0;
+          text-decoration: none;
+          font-family: SpaceGrotesk;
+          font-size: 16.8px;
+          line-height: 22px;
+          display: flex;
+          align-items: center;
+          text-align: right;
+          color: #17161a;
+          font-weight: 600; }
+          .recent-news .recent-news-bottom .recent-news-bottom-card .read-btn a img {
+            margin: 0 0 0 10px; }
+
+.parallax-video {
+  height: 600px; }
+  .parallax-video img {
+    width: 100%; }
+  .parallax-video .play-icon {
+    background-color: #000;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 269px 0 0 50%; }
+  .parallax-video .play-icon img {
+    margin: 25px 0 0 29px;
+    width: 10px;
+    height: 14px; }
+
+.google-map {
+  display: grid;
+  grid-template-columns: 1fr 50%; }
+  .google-map .google-map-right {
+    display: grid;
+    grid-template-columns: 1fr 50%; }
+    .google-map .google-map-right .get-in-touch .get-in-touch-text {
+      padding: 90px 116px 123px 70px; }
+      .google-map .google-map-right .get-in-touch .get-in-touch-text img {
+        width: 46px;
+        height: 46px; }
+      .google-map .google-map-right .get-in-touch .get-in-touch-text h3 {
+        font-family: SpaceGrotesk;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.01em;
+        color: #17161a;
+        margin: 24px 0 20px 0; }
+      .google-map .google-map-right .get-in-touch .get-in-touch-text p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #828084; }
+      .google-map .google-map-right .get-in-touch .get-in-touch-text h2 {
+        font-family: Basier-Circle;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 26px;
+        letter-spacing: -0.01em;
+        color: #000; }
+      .google-map .google-map-right .get-in-touch .get-in-touch-text h4 {
+        font-family: Basier-Circle;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -0.01em;
+        color: #000;
+        margin-top: 30px; }
+    .google-map .google-map-right .address {
+      background-color: #f9f9f9; }
+      .google-map .google-map-right .address .address-text {
+        padding: 90px 116px 0 70px; }
+        .google-map .google-map-right .address .address-text img {
+          width: 46px;
+          height: 46px; }
+        .google-map .google-map-right .address .address-text h3 {
+          font-family: SpaceGrotesk;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 28px;
+          display: flex;
+          align-items: center;
+          letter-spacing: -0.01em;
+          color: #17161a;
+          margin: 24px 0 20px 0; }
+        .google-map .google-map-right .address .address-text p {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 26px;
+          color: #232226; }
+
+.career {
+  display: grid;
+  grid-template-columns: 1fr 50%;
+  background-color: #1a191d; }
+  .career .career-left {
+    padding: 90px 236px 101px 212px; }
+    .career .career-left p {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: #828084; }
+    .career .career-left h1 {
+      font-size: 40px;
+      color: #ffffff;
+      max-width: 392px; }
+  .career .career-right {
+    padding: 90px 212px 117px 20px; }
+    .career .career-right p {
+      font-size: 18px;
+      line-height: 28px;
+      color: #f9f9f9; }
+    .career .career-right .position-btn {
+      align-items: center;
+      text-align: center;
+      display: flex;
+      margin-top: 31px;
+      background-color: #d90a2c;
+      width: 209px;
+      height: 50px; }
+      .career .career-right .position-btn a {
+        padding: 25px 22px 22px 16px;
+        text-decoration: none;
+        font-family: SpaceGrotesk;
+        font-size: 16.8px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        color: #fff;
+        font-weight: 600; }
+        .career .career-right .position-btn a img {
+          margin: 0 0 4px 10px; }
 
 @font-face {
   font-family: SpaceGrotesk;
