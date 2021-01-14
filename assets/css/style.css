@@ -280,7 +280,7 @@ p {
   .view-btn a {
     padding: 22px;
     text-decoration: none;
-    font-family: Basier Circle;
+    font-family: Basier-Circle;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -401,11 +401,12 @@ p {
   display: flex; }
   .project-num img {
     width: 24px;
-    height: 32px; }
+    height: 32px;
+    margin-top: 5px; }
   .project-num h3 {
     font-size: 40px;
     margin-left: 10px;
-    font-family: SpaceGrotesk;
+    font-family: Basier-Circle;
     line-height: 108%;
     align-items: center;
     color: #17161a; }
@@ -725,6 +726,170 @@ p {
         .career .career-right .position-btn a img {
           margin: 0 0 4px 10px; }
 
+.footer {
+  height: 560px;
+  background: #17161a; }
+  .footer .footer-top {
+    padding: 90px 212px 65px 212px;
+    display: grid;
+    grid-template-columns: 284px 284px 284px 284px;
+    grid-column-gap: 40px; }
+    .footer .footer-top .footer-top-social .footer-logo {
+      height: 44px; }
+    .footer .footer-top .footer-top-social p {
+      font-weight: 500;
+      font-size: 15.8px;
+      line-height: 26px;
+      display: flex;
+      align-items: center;
+      color: #ffffff;
+      opacity: 0.4;
+      margin: 33px 0 46px 0; }
+    .footer .footer-top .footer-top-social .footer-top-social-icons {
+      display: flex; }
+      .footer .footer-top .footer-top-social .footer-top-social-icons .fb {
+        width: 9px;
+        height: 18px;
+        position: absolute;
+        margin: 11px 0 0 15px; }
+      .footer .footer-top .footer-top-social .footer-top-social-icons .twt {
+        width: 18px;
+        height: 15px;
+        margin-left: 34px;
+        position: absolute;
+        margin: 11px 0 0 20px; }
+      .footer .footer-top .footer-top-social .footer-top-social-icons .insta {
+        width: 18px;
+        height: 18px;
+        margin-left: 30px;
+        position: absolute;
+        margin: 11px 0 0 19px; }
+  .footer .footer-bottom {
+    padding: 24px 212px 0 212px;
+    display: grid;
+    grid-template-columns: 449px 289px;
+    grid-column-gap: 518px; }
+    .footer .footer-bottom p {
+      font-size: 15px;
+      line-height: 24px;
+      letter-spacing: -0.01em;
+      color: #f9f9f9;
+      opacity: 0.8; }
+  .footer .footer-divider img {
+    width: 1275px;
+    height: 1px;
+    margin-left: 212px;
+    opacity: 0.2; }
+
+.circle-icon {
+  opacity: 0.35;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; }
+
+.circle-icon-twt {
+  opacity: 0.35;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 8px; }
+
+.circle-icon-insta {
+  opacity: 0.35;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 8px; }
+
+.footer-top-address h5 {
+  font-family: Basier-Circle;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.8px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  opacity: 0.4; }
+.footer-top-address p {
+  font-family: Basier-Circle;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.4px;
+  line-height: 26px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  opacity: 0.8;
+  margin: 25px 0 40px 0; }
+
+.footer-top-Work-inquiries h5 {
+  font-family: Basier-Circle;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.8px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  opacity: 0.4; }
+.footer-top-Work-inquiries p {
+  font-family: Basier-Circle;
+  font-family: Basier-Circle;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.4px;
+  line-height: 26px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  opacity: 0.8;
+  margin: 25px 0 40px 0; }
+
+.footer-top-subscription h5 {
+  font-family: Basier-Circle;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.8px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  opacity: 0.4; }
+.footer-top-subscription .subscription-input {
+  display: flex;
+  margin-top: 25px;
+  font-family: Basier Circle;
+  font-size: 16px; }
+  .footer-top-subscription .subscription-input input {
+    height: 50px;
+    width: 158px;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    opacity: 0.5;
+    border-radius: 2px;
+    padding-left: 15px;
+    margin-right: -1px; }
+  .footer-top-subscription .subscription-input a {
+    height: 48px;
+    width: 126px;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #fff;
+    border-radius: 2px;
+    padding: 15px 0 0 30px;
+    text-decoration: none;
+    background-color: #8b8a8c;
+    margin-top: 2px; }
+
+@media screen and (max-width: 700px) {
+  .navbar ul li {
+    display: none; } }
 @font-face {
   font-family: SpaceGrotesk;
   src: url(./../fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff);
