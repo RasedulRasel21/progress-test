@@ -58,6 +58,7 @@
   .progress {
     grid-template-columns: 1fr;
     height: 100%;
+    margin-top: 13%;
   }
   .progress .progress-left {
     padding: 5%;
@@ -145,6 +146,9 @@
   .footer .footer-bottom {
     padding: 5%;
     grid-column-gap: 40px;
+  }
+  .footer {
+    height: 100%;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -340,5 +344,8 @@
   }
   .content-left {
     margin-left: 0;
+  }
+  .footer {
+    height: 100%;
   }
 }
