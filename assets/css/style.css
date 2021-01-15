@@ -261,7 +261,7 @@ p {
   position: relative; }
 
 .parallax-contact-right img {
-  max-width: 840px;
+  max-width: 100%;
   position: absolute; }
 
 .parallax-contact-right-text {
@@ -934,8 +934,8 @@ p {
     margin-top: 13%; }
 
   .parallax-contact-right .para-img {
-    min-width: 990px;
-    height: min-content; }
+    height: min-content;
+    width: 100%; }
 
   .parallax-contact-right-text {
     padding: 15% 5%; }
@@ -1122,7 +1122,8 @@ p {
 
   .customers {
     height: 100%;
-    padding: 5% 0; }
+    padding: 5% 0;
+    display: block; }
 
   .customers .customers-top {
     display: grid;

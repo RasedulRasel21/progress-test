@@ -50,8 +50,8 @@
     margin-top: 13%;
   }
   .parallax-contact-right .para-img {
-    min-width: 990px;
     height: min-content;
+    width: 100%;
   }
   .parallax-contact-right-text {
     padding: 15% 5%;
@@ -243,6 +243,7 @@
   .customers {
     height: 100%;
     padding: 5% 0;
+    display: block;
   }
   .customers .customers-top {
     display: grid;
