@@ -887,9 +887,339 @@ p {
     background-color: #8b8a8c;
     margin-top: 2px; }
 
-@media screen and (max-width: 700px) {
-  .navbar ul li {
-    display: none; } }
+@media only screen and (max-width: 991px) {
+  .navbar {
+    display: none; }
+
+  .header-body {
+    margin-left: 0; }
+
+  .header-body-img {
+    max-width: 100%; }
+
+  .header-body-img img {
+    max-width: 100%; }
+
+  .header-body-circle {
+    left: 0; }
+
+  .header-body-text {
+    position: absolute;
+    left: 0;
+    padding: 10% 5%; }
+
+  .service-section {
+    width: 100%;
+    height: 100%; }
+
+  .services {
+    grid-template-columns: 1fr;
+    margin: 5%; }
+
+  .services-right p {
+    margin-top: 50px; }
+
+  .parallax-contact {
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 100%; }
+
+  .parallax-contact-left img {
+    max-width: 100%; }
+
+  .parallax-contact-left-text {
+    padding: 15% 5%; }
+
+  .parallax-contact-right {
+    margin-top: 13%; }
+
+  .parallax-contact-right .para-img {
+    min-width: 990px;
+    height: min-content; }
+
+  .parallax-contact-right-text {
+    padding: 15% 5%; }
+
+  .progress {
+    grid-template-columns: 1fr;
+    height: 100%; }
+
+  .progress .progress-left {
+    padding: 5%; }
+
+  .rect-icon {
+    margin-right: 53%; }
+
+  .rect-icon .rect2 {
+    margin-left: 24px; }
+
+  .progress .progress-right {
+    padding: 5%; }
+
+  .progress-img {
+    grid-template-columns: 1fr;
+    height: 100%; }
+
+  .customers {
+    height: 100%;
+    display: flex; }
+
+  .customers .customers-top {
+    padding: 5%;
+    flex-direction: column; }
+
+  .customers .customers-top img {
+    padding: 20px; }
+
+  .customers .customers-bottom {
+    padding: 5%;
+    flex-direction: column; }
+
+  .customers .customers-bottom img {
+    padding: 20px; }
+
+  .mutual-goal {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%; }
+
+  .mutual-goal .mutual-goal-left .goal-top {
+    display: none; }
+
+  .mutual-goal .mutual-goal-left .mutual-goal-left-insight {
+    padding: 5%; }
+
+  .mutual-goal .mutual-goal-left .goal-bottom {
+    display: none; }
+
+  .mutual-goal-right img {
+    width: 100%; }
+
+  .recent-news {
+    height: 100%;
+    padding: 5%; }
+
+  .recent-news .recent-news-bottom {
+    grid-template-columns: 1fr; }
+
+  .parallax-video .play-icon {
+    margin: 15% 0 0 50%; }
+
+  .parallax-video {
+    height: 100%; }
+
+  .google-map {
+    grid-template-columns: 1fr; }
+
+  .google-map-left iframe {
+    width: 100%; }
+
+  .career .career-left {
+    padding: 10%; }
+
+  .career .career-right {
+    padding: 10%; }
+
+  .footer .footer-top {
+    padding: 5%;
+    grid-template-columns: 450px 450px; }
+
+  .footer-top-subscription .subscription-input a {
+    height: 47px; }
+
+  .footer .footer-bottom {
+    padding: 5%;
+    grid-column-gap: 40px; } }
+@media only screen and (max-width: 768px) {
+  .navbar {
+    display: none; }
+
+  .header-body {
+    margin-left: 0;
+    margin-top: 0;
+    flex-direction: column; }
+
+  .header-body-img {
+    max-width: 100%; }
+
+  .header-body-img img {
+    max-width: 100%; }
+
+  .header-body-text {
+    left: 0;
+    position: absolute;
+    padding: 5%; }
+
+  .header-body-circle {
+    left: 0;
+    top: 0; }
+
+  .service-section {
+    overflow: hidden;
+    z-index: 1;
+    height: 100%;
+    height: 840px; }
+
+  .services {
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding-top: 0;
+    padding: 5%; }
+
+  .services-right p {
+    margin-top: 50px; }
+
+  .parallax-contact {
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 100%; }
+
+  .parallax-contact-left img {
+    max-width: 100%; }
+
+  .parallax-contact-left-text {
+    padding: 5%; }
+
+  .parallax-contact-right img {
+    max-width: 100%; }
+
+  .parallax-contact-right-text {
+    padding: 5%; }
+
+  .progress {
+    grid-template-columns: 1fr;
+    height: 100%;
+    margin-top: 25%; }
+
+  .progress .progress-left {
+    padding: 5%; }
+
+  .progress .progress-right {
+    padding: 5%; }
+
+  .progresss-img-left img {
+    width: 100%; }
+
+  .progress-img {
+    height: 100%; }
+
+  .progress-img .progress-img-right {
+    max-width: 100%; }
+
+  .progress-img-right img {
+    width: 100%; }
+
+  .progress-status {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    height: 100%; }
+
+  .progress-status .progress-status-left {
+    padding: 5%; }
+
+  .progress-status .progress-status-right {
+    padding: 5%; }
+
+  .customers {
+    height: 100%;
+    padding: 5% 0; }
+
+  .customers .customers-top {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    padding: 5% 0; }
+
+  .customers .customers-top img {
+    max-width: 100px;
+    margin-left: 100px;
+    padding: 5%; }
+
+  .customers .customers-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    padding: 5% 0; }
+
+  .mutual-goal {
+    grid-template-columns: 1fr;
+    height: 100%; }
+
+  .customers .customers-bottom img {
+    max-width: 100px;
+    margin-left: 100px;
+    padding: 5%; }
+
+  .mutual-goal .mutual-goal-left .mutual-goal-left-insight {
+    padding: 5%; }
+
+  .mutual-goal .mutual-goal-left .goal-top {
+    height: 0px; }
+
+  .mutual-goal .mutual-goal-left {
+    max-width: 100%; }
+
+  .mutual-goal .mutual-goal-left .goal-bottom {
+    height: 0px; }
+
+  .recent-news {
+    height: 100%;
+    padding: 5%; }
+
+  .recent-news .recent-news-bottom {
+    grid-template-columns: 1fr; }
+
+  .parallax-video .play-icon {
+    margin: 14% 0 0 50%; }
+
+  .parallax-video {
+    height: 100%; }
+
+  .google-map-left iframe {
+    width: 100%; }
+
+  .google-map {
+    grid-template-columns: 1fr; }
+
+  .career {
+    grid-template-columns: 1fr; }
+
+  .career .career-left {
+    padding: 5%; }
+
+  .career .career-right {
+    padding: 5%; }
+
+  .footer .footer-top {
+    padding: 5%; }
+
+  .footer .footer-bottom {
+    padding: 5%;
+    grid-template-columns: 1fr;
+    grid-column-gap: 0; }
+
+  .footer .footer-top {
+    padding: 5%; }
+
+  .footer {
+    height: 100%; }
+
+  .footer-bottom-right {
+    padding: 5% 0; }
+
+  .progress-img {
+    grid-template-columns: 1fr; }
+
+  .footer .footer-top {
+    padding: 5%;
+    grid-template-columns: 1fr; }
+
+  .recent-news .recent-news-bottom .recent-news-bottom-card {
+    width: 100%; }
+
+  .mutual-goal-right img {
+    width: 100%; }
+
+  .content-left {
+    margin-left: 0; } }
 @font-face {
   font-family: SpaceGrotesk;
   src: url(./../fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff);
