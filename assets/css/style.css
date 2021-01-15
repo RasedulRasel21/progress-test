@@ -727,7 +727,7 @@ p {
           margin: 0 0 4px 10px; }
 
 .footer {
-  height: 560px;
+  height: 100%;
   background: #17161a; }
   .footer .footer-top {
     padding: 90px 212px 65px 212px;
