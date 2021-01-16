@@ -289,20 +289,13 @@
 .customers {
   height: 380px;
   background-color: #f9f9f9;
+
   .customers-top {
-    display: flex;
+    display: grid;
     padding: 105px 268px 105px 112px;
+    grid-template-columns: 150px repeat(auto-fit, 180px) 0;
     img {
       max-width: 120px;
-      margin-left: 100px;
-    }
-  }
-  .customers-bottom {
-    display: flex;
-    padding: 0 268px 105px 112px;
-    img {
-      max-width: 120px;
-      margin-left: 100px;
     }
   }
 }

@@ -414,17 +414,11 @@ p {
   height: 380px;
   background-color: #f9f9f9; }
   .customers .customers-top {
-    display: flex;
-    padding: 105px 268px 105px 112px; }
+    display: grid;
+    padding: 105px 268px 105px 112px;
+    grid-template-columns: 150px repeat(auto-fit, 180px) 0; }
     .customers .customers-top img {
-      max-width: 120px;
-      margin-left: 100px; }
-  .customers .customers-bottom {
-    display: flex;
-    padding: 0 268px 105px 112px; }
-    .customers .customers-bottom img {
-      max-width: 120px;
-      margin-left: 100px; }
+      max-width: 120px; }
 
 .mutual-goal {
   display: grid;
@@ -913,7 +907,7 @@ p {
 
   .services {
     grid-template-columns: 1fr;
-    margin: 5%; }
+    margin: 0 5%; }
 
   .services-right p {
     margin-top: 50px; }
@@ -928,9 +922,6 @@ p {
 
   .parallax-contact-left-text {
     padding: 15% 5%; }
-
-  .parallax-contact-right {
-    margin-top: 13%; }
 
   .parallax-contact-right .para-img {
     width: 100%; }
@@ -1057,13 +1048,27 @@ p {
     padding: 5%; }
 
   .header-body-text h2 {
-    font-size: 50px; }
+    font-size: 35px; }
+
+  .header-body-text p {
+    font-size: 16px;
+    margin-bottom: 35px; }
+
+  .header-body-text a {
+    padding: 16px 30px;
+    font-size: 12px; }
+
+  .services-left h1 {
+    font-size: 35px; }
+
+  .services-right p {
+    font-size: 16px; }
 
   .header-body-circle {
     left: 0;
-    top: 150px;
-    width: 550px;
-    height: 550px; }
+    top: 200px;
+    width: 400px;
+    height: 400px; }
 
   .service-section {
     overflow: hidden;
@@ -1137,19 +1142,7 @@ p {
     display: block; }
 
   .customers .customers-top {
-    display: grid;
-    grid-template-columns: repeat(3, 200px);
-    padding: 5% 0; }
-
-  .customers .customers-top img {
-    max-width: 100px;
-    margin-left: 15%;
     padding: 5%; }
-
-  .customers .customers-bottom {
-    display: grid;
-    grid-template-columns: repeat(3, 200px);
-    padding: 5% 0; }
 
   .mutual-goal {
     grid-template-columns: 1fr;
@@ -1244,7 +1237,25 @@ p {
     padding: 5%; }
 
   .google-map .google-map-right .get-in-touch .get-in-touch-text {
-    padding: 5%; } }
+    padding: 5%; }
+
+  .services-right-content {
+    grid-template-columns: 1fr; }
+
+  .services-right-content div {
+    padding: 25px 0; }
+
+  .parallax-contact h1 {
+    font-size: 35px; }
+
+  .progress-bar-icon .rect-red {
+    width: 300px; }
+
+  .rect-icon {
+    margin-left: 264px; }
+
+  .arrow .arrow-left {
+    margin-left: 200px; } }
 @font-face {
   font-family: SpaceGrotesk;
   src: url(./../fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff);
