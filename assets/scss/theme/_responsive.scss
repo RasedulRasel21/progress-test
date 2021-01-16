@@ -64,7 +64,7 @@
     padding: 5%;
   }
   .rect-icon {
-    margin-right: 53%;
+    margin-left: 386px;
   }
   .rect-icon .rect2 {
     margin-left: 24px;
@@ -150,11 +150,41 @@
   .footer {
     height: 100%;
   }
+  .footer .footer-divider img {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 @media only screen and (max-width: 768px) {
   .navbar {
     display: none;
   }
+  // .navbar {
+  //   display: block;
+  //   left: -100%;
+  //   position: absolute;
+  //   background: #000;
+  //   z-index: 1;
+  //   height: 100%;
+  //   width: 100%;
+  //   margin-top: 130px;
+  // }
+  // .nav-show {
+  //   left: 0;
+  // }
+  // .navbar ul {
+  //   display: block;
+  //   float: none;
+  // }
+  // .navbar ul li {
+  //   text-align: center;
+  // }
+  // .navbar ul li span {
+  //   display: none;
+  // }
+  // .navbar ul li a {
+  //   color: #fff;
+  // }
   .header-body {
     margin-left: 0;
     margin-top: 0;
@@ -171,16 +201,19 @@
     position: absolute;
     padding: 5%;
   }
+  .header-body-text h2 {
+    font-size: 50px;
+  }
   .header-body-circle {
     left: 0;
-    top: 0;
+    top: 150px;
+    width: 550px;
+    height: 550px;
   }
   .service-section {
     overflow: hidden;
     z-index: 1;
     height: 100%;
-
-    height: 840px;
   }
   .services {
     grid-template-columns: 1fr;
@@ -221,6 +254,7 @@
   }
   .progresss-img-left img {
     width: 100%;
+    height: 100%;
   }
   .progress-img {
     height: 100%;
@@ -255,7 +289,7 @@
   }
   .customers .customers-top img {
     max-width: 100px;
-    margin-left: 100px;
+    margin-left: 15%;
     padding: 5%;
   }
   .customers .customers-bottom {
@@ -269,7 +303,7 @@
   }
   .customers .customers-bottom img {
     max-width: 100px;
-    margin-left: 100px;
+    margin-left: 15%;
     padding: 5%;
   }
   .mutual-goal .mutual-goal-left .mutual-goal-left-insight {
@@ -347,5 +381,15 @@
   }
   .footer {
     height: 100%;
+  }
+  .footer .footer-divider img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .google-map .google-map-right .address .address-text {
+    padding: 5%;
+  }
+  .google-map .google-map-right .get-in-touch .get-in-touch-text {
+    padding: 5%;
   }
 }

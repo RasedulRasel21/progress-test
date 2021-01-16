@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  max-width: 1680px; }
+  box-sizing: border-box; }
 
 ul li {
   list-style: none; }
@@ -341,9 +340,9 @@ p {
 
 .rect-icon {
   display: grid;
-  float: right;
+  float: left;
   margin-top: -40px;
-  margin-right: 79px; }
+  margin-left: 386px; }
   .rect-icon .rect {
     width: 36px;
     height: 22px; }
@@ -948,7 +947,7 @@ p {
     padding: 5%; }
 
   .rect-icon {
-    margin-right: 53%; }
+    margin-left: 386px; }
 
   .rect-icon .rect2 {
     margin-left: 24px; }
@@ -1032,7 +1031,11 @@ p {
     grid-column-gap: 40px; }
 
   .footer {
-    height: 100%; } }
+    height: 100%; }
+
+  .footer .footer-divider img {
+    width: 100%;
+    margin-left: 0; } }
 @media only screen and (max-width: 768px) {
   .navbar {
     display: none; }
@@ -1053,15 +1056,19 @@ p {
     position: absolute;
     padding: 5%; }
 
+  .header-body-text h2 {
+    font-size: 50px; }
+
   .header-body-circle {
     left: 0;
-    top: 0; }
+    top: 150px;
+    width: 550px;
+    height: 550px; }
 
   .service-section {
     overflow: hidden;
     z-index: 1;
-    height: 100%;
-    height: 840px; }
+    height: 100%; }
 
   .services {
     grid-template-columns: 1fr;
@@ -1101,7 +1108,8 @@ p {
     padding: 5%; }
 
   .progresss-img-left img {
-    width: 100%; }
+    width: 100%;
+    height: 100%; }
 
   .progress-img {
     height: 100%; }
@@ -1135,7 +1143,7 @@ p {
 
   .customers .customers-top img {
     max-width: 100px;
-    margin-left: 100px;
+    margin-left: 15%;
     padding: 5%; }
 
   .customers .customers-bottom {
@@ -1149,7 +1157,7 @@ p {
 
   .customers .customers-bottom img {
     max-width: 100px;
-    margin-left: 100px;
+    margin-left: 15%;
     padding: 5%; }
 
   .mutual-goal .mutual-goal-left .mutual-goal-left-insight {
@@ -1226,7 +1234,17 @@ p {
     margin-left: 0; }
 
   .footer {
-    height: 100%; } }
+    height: 100%; }
+
+  .footer .footer-divider img {
+    width: 100%;
+    margin-left: 0; }
+
+  .google-map .google-map-right .address .address-text {
+    padding: 5%; }
+
+  .google-map .google-map-right .get-in-touch .get-in-touch-text {
+    padding: 5%; } }
 @font-face {
   font-family: SpaceGrotesk;
   src: url(./../fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff);
