@@ -268,7 +268,6 @@
   }
   .customers .customers-top {
     padding: 5%;
-    grid-template-columns: 150px repeat(auto-fit, 150px) 0;
   }
   .mutual-goal {
     grid-template-columns: 1fr;
@@ -413,9 +412,6 @@
   }
   .customers .customers-top img {
     padding: 16px;
-  }
-  .customers .customers-top {
-    grid-template-columns: 110px repeat(auto-fit, 115px) 0;
   }
   .arrow .arrow-left {
     margin-left: 110px;

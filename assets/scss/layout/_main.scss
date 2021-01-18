@@ -289,7 +289,7 @@
   .customers-top {
     display: grid;
     padding: 105px 268px 105px 112px;
-    grid-template-columns: 150px repeat(auto-fit, 200px) 0;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     img {
       max-width: 120px;
       padding: 20px;

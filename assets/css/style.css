@@ -413,7 +413,7 @@ img {
   .customers .customers-top {
     display: grid;
     padding: 105px 268px 105px 112px;
-    grid-template-columns: 150px repeat(auto-fit, 200px) 0; }
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); }
     .customers .customers-top img {
       max-width: 120px;
       padding: 20px; }
@@ -1112,8 +1112,7 @@ img {
     display: block; }
 
   .customers .customers-top {
-    padding: 5%;
-    grid-template-columns: 150px repeat(auto-fit, 150px) 0; }
+    padding: 5%; }
 
   .mutual-goal {
     grid-template-columns: 1fr;
@@ -1255,9 +1254,6 @@ img {
 
   .customers .customers-top img {
     padding: 16px; }
-
-  .customers .customers-top {
-    grid-template-columns: 110px repeat(auto-fit, 115px) 0; }
 
   .arrow .arrow-left {
     margin-left: 110px; }
