@@ -17,6 +17,10 @@ p {
   font-family: Basier-Circle;
   letter-spacing: -0.01em; }
 
+img {
+  max-width: 100%;
+  height: auto; }
+
 @font-face {
   font-family: SpaceGrotesk;
   src: url(./../../fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff);
@@ -236,9 +240,7 @@ p {
 
 .parallax-contact {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 100%;
-  height: 600px; }
+  grid-template-columns: 1fr 1fr; }
   .parallax-contact p {
     font-style: normal;
     font-weight: 600;
@@ -251,21 +253,26 @@ p {
     font-size: 54px;
     color: #ffffff; }
 
-.parallax-contact-left img {
-  max-width: 840px;
-  position: absolute; }
+.parallax-contact-left {
+  position: relative; }
+
+.parallax-contact-right {
+  position: relative; }
 
 .parallax-contact-left-text {
-  padding: 155px 128px 155px 212px;
-  position: relative; }
-
-.parallax-contact-right img {
-  max-width: 100%;
-  position: absolute; }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 .parallax-contact-right-text {
-  padding: 155px 212px 155px 128px;
-  position: relative; }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.para-right-img {
+  width: 100%; }
 
 .view-btn {
   max-width: 175px;
@@ -277,7 +284,7 @@ p {
   display: flex;
   margin-top: 40px; }
   .view-btn a {
-    padding: 22px;
+    padding: 18px;
     text-decoration: none;
     font-family: Basier-Circle;
     font-style: normal;
@@ -416,9 +423,10 @@ p {
   .customers .customers-top {
     display: grid;
     padding: 105px 268px 105px 112px;
-    grid-template-columns: 150px repeat(auto-fit, 180px) 0; }
+    grid-template-columns: 150px repeat(auto-fit, 200px) 0; }
     .customers .customers-top img {
-      max-width: 120px; }
+      max-width: 120px;
+      padding: 20px; }
 
 .mutual-goal {
   display: grid;
@@ -917,18 +925,6 @@ p {
     width: 100%;
     height: 100%; }
 
-  .parallax-contact-left img {
-    max-width: 100%; }
-
-  .parallax-contact-left-text {
-    padding: 15% 5%; }
-
-  .parallax-contact-right .para-img {
-    width: 100%; }
-
-  .parallax-contact-right-text {
-    padding: 15% 5%; }
-
   .progress {
     grid-template-columns: 1fr;
     height: 100%;
@@ -1089,18 +1085,6 @@ p {
     width: 100%;
     height: 100%; }
 
-  .parallax-contact-left img {
-    max-width: 100%; }
-
-  .parallax-contact-left-text {
-    padding: 5%; }
-
-  .parallax-contact-right img {
-    max-width: 100%; }
-
-  .parallax-contact-right-text {
-    padding: 5%; }
-
   .progress {
     grid-template-columns: 1fr;
     height: 100%;
@@ -1142,7 +1126,8 @@ p {
     display: block; }
 
   .customers .customers-top {
-    padding: 5%; }
+    padding: 5%;
+    grid-template-columns: 150px repeat(auto-fit, 150px) 0; }
 
   .mutual-goal {
     grid-template-columns: 1fr;

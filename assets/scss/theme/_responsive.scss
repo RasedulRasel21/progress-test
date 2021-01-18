@@ -40,18 +40,6 @@
     width: 100%;
     height: 100%;
   }
-  .parallax-contact-left img {
-    max-width: 100%;
-  }
-  .parallax-contact-left-text {
-    padding: 15% 5%;
-  }
-  .parallax-contact-right .para-img {
-    width: 100%;
-  }
-  .parallax-contact-right-text {
-    padding: 15% 5%;
-  }
   .progress {
     grid-template-columns: 1fr;
     height: 100%;
@@ -240,18 +228,6 @@
     width: 100%;
     height: 100%;
   }
-  .parallax-contact-left img {
-    max-width: 100%;
-  }
-  .parallax-contact-left-text {
-    padding: 5%;
-  }
-  .parallax-contact-right img {
-    max-width: 100%;
-  }
-  .parallax-contact-right-text {
-    padding: 5%;
-  }
   .progress {
     grid-template-columns: 1fr;
     height: 100%;
@@ -295,6 +271,7 @@
   }
   .customers .customers-top {
     padding: 5%;
+    grid-template-columns: 150px repeat(auto-fit, 150px) 0;
   }
   .mutual-goal {
     grid-template-columns: 1fr;
