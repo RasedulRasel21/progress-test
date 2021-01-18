@@ -373,12 +373,7 @@ img {
 
 .progress-img {
   display: grid;
-  grid-template-columns: 64% 36%;
-  height: 500px; }
-  .progress-img .progress-img-left {
-    max-width: 928px; }
-  .progress-img .progress-img-right {
-    max-width: 392px; }
+  grid-template-columns: 2fr 1fr; }
 
 .progress-status {
   display: grid;
@@ -430,65 +425,62 @@ img {
 
 .mutual-goal {
   display: grid;
-  grid-template-columns: 968px 712px;
-  height: 796px; }
-  .mutual-goal .mutual-goal-left {
-    max-width: 968px; }
-    .mutual-goal .mutual-goal-left .goal-top {
-      background-color: #f9f9f9;
-      height: 90px; }
-    .mutual-goal .mutual-goal-left .goal-bottom {
-      background-color: #f9f9f9;
-      height: 100px;
-      margin-top: 5px; }
-    .mutual-goal .mutual-goal-left .mutual-goal-left-insight {
-      padding: 80px 148px 62px 212px; }
-    .mutual-goal .mutual-goal-left p {
-      font-style: normal;
-      font-weight: 600;
-      font-size: 14px;
-      line-height: 24px;
-      text-transform: uppercase;
-      color: #232226; }
-    .mutual-goal .mutual-goal-left h1 {
-      font-size: 40px;
+  grid-template-columns: 1.5fr 1fr; }
+  .mutual-goal .mutual-goal-left .goal-top {
+    background-color: #f9f9f9;
+    height: 90px; }
+  .mutual-goal .mutual-goal-left .goal-bottom {
+    background-color: #f9f9f9;
+    height: 100px;
+    margin-top: 5px; }
+  .mutual-goal .mutual-goal-left .mutual-goal-left-insight {
+    padding: 85px 148px 62px 212px; }
+  .mutual-goal .mutual-goal-left p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #232226; }
+  .mutual-goal .mutual-goal-left h1 {
+    font-size: 40px;
+    color: #17161a;
+    margin-top: 10px; }
+  .mutual-goal .mutual-goal-left .founder-img {
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+    border-radius: 50%; }
+  .mutual-goal .mutual-goal-left .customer-support {
+    font-family: Basier-Circle;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #232226;
+    margin-top: 20px;
+    max-width: 608px; }
+    .mutual-goal .mutual-goal-left .customer-support .founder-name {
+      font-family: SpaceGrotesk;
+      font-size: 16.8px;
+      line-height: 22px;
+      display: flex;
+      align-items: center;
       color: #17161a;
-      margin-top: 10px; }
-    .mutual-goal .mutual-goal-left .founder-img {
-      height: 60px;
-      width: 60px;
-      margin-top: 30px;
-      border-radius: 50%; }
-    .mutual-goal .mutual-goal-left .customer-support {
+      margin-bottom: -25px;
+      margin-top: 25px;
+      text-transform: capitalize; }
+    .mutual-goal .mutual-goal-left .customer-support .position {
       font-family: Basier-Circle;
       font-style: normal;
-      font-weight: 500;
-      font-size: 18px;
-      line-height: 32px;
+      font-weight: normal;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
       letter-spacing: -0.01em;
       color: #232226;
-      margin-top: 20px;
-      max-width: 608px; }
-      .mutual-goal .mutual-goal-left .customer-support .founder-name {
-        font-family: SpaceGrotesk;
-        font-size: 16.8px;
-        line-height: 22px;
-        display: flex;
-        align-items: center;
-        color: #17161a;
-        margin-bottom: -25px;
-        margin-top: 25px;
-        text-transform: capitalize; }
-      .mutual-goal .mutual-goal-left .customer-support .position {
-        font-family: Basier-Circle;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        display: flex;
-        align-items: center;
-        letter-spacing: -0.01em;
-        color: #232226;
-        text-transform: capitalize; }
+      text-transform: capitalize; }
 
 .slider-icon {
   display: flex;
@@ -735,7 +727,7 @@ img {
   .footer .footer-top {
     padding: 90px 212px 65px 212px;
     display: grid;
-    grid-template-columns: 284px 284px 284px 284px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 40px; }
     .footer .footer-top .footer-top-social .footer-logo {
       height: 44px; }

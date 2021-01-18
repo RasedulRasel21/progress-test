@@ -232,14 +232,7 @@
 
 .progress-img {
   display: grid;
-  grid-template-columns: 64% 36%;
-  height: 500px;
-  .progress-img-left {
-    max-width: 928px;
-  }
-  .progress-img-right {
-    max-width: 392px;
-  }
+  grid-template-columns: 2fr 1fr;
 }
 
 //progress-status
@@ -307,10 +300,8 @@
 //mutual goal
 .mutual-goal {
   display: grid;
-  grid-template-columns: 968px 712px;
-  height: 796px;
+  grid-template-columns: 1.5fr 1fr;
   .mutual-goal-left {
-    max-width: 968px;
     .goal-top {
       background-color: #f9f9f9;
       height: 90px;
@@ -322,7 +313,7 @@
     }
 
     .mutual-goal-left-insight {
-      padding: 80px 148px 62px 212px;
+      padding: 85px 148px 62px 212px;
     }
     p {
       font-style: normal;
