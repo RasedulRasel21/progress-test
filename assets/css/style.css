@@ -143,20 +143,15 @@ img {
   position: relative; }
   .header-body-text h2 {
     font-family: Playfair_Display;
-    font-style: normal;
     font-weight: 900;
     font-size: 72px;
     margin-top: 15px;
     line-height: 102%;
-    letter-spacing: -0.02em;
-    width: 432px; }
+    letter-spacing: -0.02em; }
   .header-body-text p {
-    font-family: Basier-Circle;
-    font-style: normal;
     font-weight: 500;
     font-size: 19px;
     line-height: 28px;
-    width: 361px;
     margin-bottom: 57px;
     margin-top: 26px; }
   .header-body-text a {
@@ -1248,7 +1243,9 @@ img {
   .header-body-text p {
     font-size: 14px;
     margin-bottom: 22px;
-    margin-top: 6px; }
+    margin-top: 6px;
+    line-height: 20px;
+    min-width: 250px; }
 
   .parallax-contact h1 {
     font-size: 22px; }
@@ -1292,7 +1289,7 @@ img {
     font-size: 19px !important; }
 
   p {
-    font-size: 16px !important; } }
+    font-size: 14px !important; } }
 @font-face {
   font-family: SpaceGrotesk;
   src: url(./../fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff);
