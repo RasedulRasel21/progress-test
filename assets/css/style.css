@@ -1272,7 +1272,19 @@ img {
   .news
   h4 {
     font-family: SpaceGrotesk;
-    font-size: 22px; } }
+    font-size: 22px; }
+
+  .progress-bar-icon .rect-red {
+    width: 200px; }
+
+  .rect-icon {
+    margin-left: 164px; }
+
+  .progress-bar-icon {
+    margin-top: 40px; }
+
+  h1 {
+    font-size: 22px !important; } }
 @font-face {
   font-family: SpaceGrotesk;
   src: url(./../fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff);
