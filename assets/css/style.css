@@ -1228,7 +1228,51 @@ img {
     margin-left: 264px; }
 
   .arrow .arrow-left {
-    margin-left: 200px; } }
+    margin-left: 200px; }
+
+  .google-map .google-map-right {
+    grid-template-columns: 1fr; }
+
+  .google-map .google-map-right .get-in-touch .get-in-touch-text h4 {
+    margin-top: 16px; } }
+@media only screen and (max-width: 400px) {
+  .header-body-text h2 {
+    font-size: 22px; }
+
+  .header-body-circle {
+    left: 0;
+    top: 150px;
+    width: 300px;
+    height: 300px; }
+
+  .header-body-text p {
+    font-size: 14px;
+    margin-bottom: 22px;
+    margin-top: 6px; }
+
+  .parallax-contact h1 {
+    font-size: 22px; }
+
+  .customers .customers-top img {
+    max-width: 90px; }
+
+  .customers .customers-top img {
+    padding: 16px; }
+
+  .customers .customers-top {
+    grid-template-columns: 110px repeat(auto-fit, 115px) 0; }
+
+  .arrow .arrow-left {
+    margin-left: 110px; }
+
+  .recent-news
+  .recent-news-bottom
+  .recent-news-bottom-card
+  .recent-news-bottom-card-in
+  .news
+  h4 {
+    font-family: SpaceGrotesk;
+    font-size: 22px; } }
 @font-face {
   font-family: SpaceGrotesk;
   src: url(./../fonts/SpaceGrotesk/SpaceGrotesk-Regular.woff);
