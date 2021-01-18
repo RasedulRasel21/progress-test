@@ -408,12 +408,11 @@ img {
     color: #17161a; }
 
 .customers {
-  height: 380px;
   background-color: #f9f9f9; }
   .customers .customers-top {
     display: grid;
-    padding: 105px 268px 105px 112px;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); }
+    padding: 105px 268px 105px 212px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
     .customers .customers-top img {
       max-width: 120px;
       padding: 20px; }
@@ -935,13 +934,10 @@ img {
     grid-template-columns: 1fr;
     height: 100%; }
 
-  .customers {
-    height: 100%;
-    display: flex; }
-
   .customers .customers-top {
+    display: grid;
     padding: 5%;
-    flex-direction: column; }
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
 
   .customers .customers-top img {
     padding: 20px; }
@@ -1012,6 +1008,12 @@ img {
 @media only screen and (max-width: 768px) {
   .navbar {
     display: none; }
+
+  .header-body-text .play-icon {
+    width: 40px;
+    height: 40px; }
+  .header-body-text .play-icon img {
+    margin: 14px 0 0 18px; }
 
   .header-body {
     margin-left: 0;
@@ -1110,9 +1112,9 @@ img {
     height: 100%;
     padding: 5% 0;
     display: block; }
-
-  .customers .customers-top {
-    padding: 5%; }
+    .customers .customers-top {
+      padding: 5%;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); }
 
   .mutual-goal {
     grid-template-columns: 1fr;
@@ -1228,7 +1230,12 @@ img {
     grid-template-columns: 1fr; }
 
   .google-map .google-map-right .get-in-touch .get-in-touch-text h4 {
-    margin-top: 16px; } }
+    margin-top: 16px; }
+
+  .customers-top {
+    display: grid;
+    padding: 5%;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); } }
 @media only screen and (max-width: 400px) {
   .header-body-text h2 {
     font-size: 22px; }
