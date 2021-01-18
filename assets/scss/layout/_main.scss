@@ -526,6 +526,7 @@
 
 //parallax video
 .parallax-video {
+  position: relative;
   img {
     width: 100%;
   }
@@ -535,7 +536,9 @@
     height: 62px;
     border-radius: 50%;
     position: absolute;
-    margin: 269px 0 0 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   .play-icon img {
     margin: 25px 0 0 29px;
