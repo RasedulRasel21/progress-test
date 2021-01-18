@@ -598,21 +598,19 @@ img {
           .recent-news .recent-news-bottom .recent-news-bottom-card .read-btn a img {
             margin: 0 0 0 10px; }
 
-.parallax-video {
-  height: 600px; }
-  .parallax-video img {
-    width: 100%; }
-  .parallax-video .play-icon {
-    background-color: #000;
-    width: 62px;
-    height: 62px;
-    border-radius: 50%;
-    position: absolute;
-    margin: 269px 0 0 50%; }
-  .parallax-video .play-icon img {
-    margin: 25px 0 0 29px;
-    width: 10px;
-    height: 14px; }
+.parallax-video img {
+  width: 100%; }
+.parallax-video .play-icon {
+  background-color: #000;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  position: absolute;
+  margin: 269px 0 0 50%; }
+.parallax-video .play-icon img {
+  margin: 25px 0 0 29px;
+  width: 10px;
+  height: 14px; }
 
 .google-map {
   display: grid;
