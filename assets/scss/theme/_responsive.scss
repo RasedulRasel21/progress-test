@@ -469,3 +469,38 @@
     font-size: 14px !important;
   }
 }
+@media only screen and (max-width: 320px) {
+  .header-body-circle {
+    width: 250px;
+    height: 250px;
+  }
+  .header-body-text a {
+    padding: 12px 22px;
+    font-size: 10px;
+  }
+  .view-btn a {
+    font-size: 10px;
+  }
+  .view-btn {
+    max-width: 140px;
+    height: 40px;
+    margin-top: 14px;
+  }
+  .project-num img {
+    width: 20px;
+    height: 25px;
+  }
+  .arrow .arrow-left {
+    margin-left: 30px;
+  }
+  .career .career-right .position-btn {
+    width: 175px;
+    height: 45px;
+  }
+  .career .career-right .position-btn a {
+    font-size: 12px;
+  }
+  .logo ul li img {
+    height: 36px;
+  }
+}
